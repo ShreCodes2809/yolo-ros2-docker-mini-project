@@ -38,7 +38,7 @@ def generate_launch_description():
                     "model_type": "World",
                     "model": LaunchConfiguration("model", default="yolov8s-worldv2.pt"),
                     "tracker": LaunchConfiguration("tracker", default="bytetrack.yaml"),
-                    "device": LaunchConfiguration("device", default="cuda:0"),
+                    "device": LaunchConfiguration("device", default="cpu"),
                     "enable": LaunchConfiguration("enable", default="True"),
                     "threshold": LaunchConfiguration("threshold", default="0.5"),
                     "input_image_topic": LaunchConfiguration(
