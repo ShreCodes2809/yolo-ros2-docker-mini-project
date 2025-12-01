@@ -57,7 +57,7 @@ This confirms understanding of ROS2 publishers/subscribers, node lifecycles, mes
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Structure inside the Docker Container
 
 ```
 yolo-ros2-docker-mini-project/
@@ -67,13 +67,9 @@ yolo-ros2-docker-mini-project/
 │   ├── src/                # YOLO ROS2 packages
 │   ├── install/
 │   ├── build/
+│   └── scripts/
+│       └── publisher_10_images.py
 │   └── images/             # 10 test images for publisher
-│
-├── scripts/
-│   └── publisher_10_images.py
-│
-├── README.md
-└── .gitignore
 ```
 
 ---
